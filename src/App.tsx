@@ -15,10 +15,10 @@ export const App: FC = () => {
 
   return (
     <Routes>
-      <Route path="/" element={<EmployeeManagement />} />
-      <Route path="/add" element={<EmployeeAddForm />} />
+      <Route path="/TestTask/" element={<EmployeeManagement />} />
+      <Route path="/TestTask//add" element={<EmployeeAddForm />} />
       <Route
-        path="/change/:id"
+        path="/TestTask//change/:id"
         element={<EmployeeModificationAndDeletionForm />}
       />
     </Routes>
