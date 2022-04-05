@@ -60,6 +60,7 @@ export const EmployeeAddForm: FC = (): any => {
           />
           <Field type="date" name="birthday" className={style.item} />
           <PhoneInput
+              style={{backgroundColor: 'white'}}
             country="RU"
             defaultValue={employeePhoneNumber}
             onChange={addEmployeeBPhone}
