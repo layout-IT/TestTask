@@ -1,0 +1,36 @@
+.itemsArrow {
+  display: flex;
+  align-items: center;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.tableCell{
+  @media (max-width: 600px) {
+    padding: 10px 5px !important;
+  }
+}
+.item {
+  transition: all 0.3s ease;
+
+  &:first-child {
+    transform: rotate(180deg);
+  }
+}
+.line{
+  @media (max-width: 600px) {
+    font-size: 14px !important;
+    padding: 10px 5px !important;
+  }
+
+}
+.title{
+  @media (max-width: 600px) {
+    font-size: 16px !important;
+    padding: 10px 5px !important;
+  }
+}

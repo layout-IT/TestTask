@@ -1,0 +1,30 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.contaiber {
+  padding-top: 50px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.button{
+  @media (max-width: 600px) {
+    margin-top: 10px !important;
+    font-size: 12px !important;
+  }
+}
+body{
+  @media (max-width: 600px) {
+    margin: 0 !important;
+  }
+}

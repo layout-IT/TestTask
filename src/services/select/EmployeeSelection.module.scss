@@ -1,0 +1,25 @@
+.formControl{
+  @media (max-width: 600px) {
+    padding: 0 !important;
+  }
+}
+.inputLable{
+  @media (max-width: 600px) {
+    padding: 0 !important;
+    font-size: 14px !important;
+  }
+}
+.select{
+  @media (max-width: 600px) {
+    padding: 10px !important;
+    font-size: 14px !important;
+    height: 45px;
+  }
+}
+
+.menuItem{
+  @media (max-width: 600px) {
+    padding: 10px !important;
+    font-size: 12px !important;
+  }
+}

@@ -1,0 +1,47 @@
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  border: 2px solid #6384DF;
+  padding: 10px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.item {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #676565;
+  cursor: pointer;
+  border: none;
+  border-bottom: 2px solid #b9b7b7;
+  transition: all 0.3s ease;
+
+  &:last-child {
+    background-color: #6384DF;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: none;
+      background-color: #4872e8;
+    }
+
+    &:active {
+      position: relative;
+      top: 1px;
+    }
+  }
+
+  &:hover {
+    box-shadow: 4px 4px 4px 1px #90a4dc;
+  }
+
+}
