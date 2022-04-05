@@ -16,7 +16,7 @@ export const EmployeeManagement: FC = (): ReturnComponent => {
 
   const preloader = useSelector(selectPreloaderStatus);
   const openTheFormForAddingAnEmployee = (): void => {
-    navigate("/add");
+    navigate("/TestTask/add");
   };
   return (
     <div className={style.wrapper}>

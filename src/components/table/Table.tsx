@@ -82,7 +82,7 @@ export const TableOfEmployees: FC = (): ReturnComponent => {
 
   const goToEditing = (employeeData: EmployeesType): void => {
     dispatch(informationAboutTheSelectedEmployeeAC(employeeData));
-    navigate(`/change/${employeeData.id}`);
+    navigate(`/TestTask/change/${employeeData.id}`);
   };
 
   return (
