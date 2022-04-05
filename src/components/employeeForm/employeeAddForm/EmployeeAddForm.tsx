@@ -48,9 +48,9 @@ export const EmployeeAddForm: FC = (): any => {
           />
           <Field
             type="text"
-            name="isArcive"
+            name="isArchive"
             className={style.item}
-            placeholder="IsArcive"
+            placeholder="IsArchive"
           />
           <Field
             type="text"
