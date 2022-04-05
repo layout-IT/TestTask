@@ -58,7 +58,7 @@ export const EmployeeModificationAndDeletionForm: FC = (): ReturnComponent => {
       )
     );
     setSubmitting(false);
-    navigate("/");
+    navigate("/TestTask/");
   };
   const changeId = (event: any): void => {
     setEmployeeId(event.currentTarget.value);

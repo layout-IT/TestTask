@@ -29,7 +29,7 @@ export const EmployeeAddForm: FC = (): any => {
     };
     dispatch(addNewEmployeeAC(objectWithInformationAboutANewEmployee));
     setSubmitting(false);
-    navigate("/");
+    navigate("/TestTask/");
   };
   return (
     <Formik
