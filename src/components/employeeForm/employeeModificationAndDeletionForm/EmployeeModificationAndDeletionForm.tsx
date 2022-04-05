@@ -81,7 +81,7 @@ export const EmployeeModificationAndDeletionForm: FC = (): ReturnComponent => {
 
   const deleteEmployee = (idEmployee: number): void => {
     dispatch(deleteEmployeeInformationAC(idEmployee));
-    navigate("/");
+    navigate("/TestTask/");
   };
   return (
     <Formik
