@@ -18,7 +18,7 @@ export const CheckboxLabels: FC = (): ReturnComponent => {
   return (
     <FormGroup className={style.formGroup}>
       <FormControlLabel
-        control={<Checkbox defaultChecked />}
+        control={<Checkbox  />}
         label="In the archive"
         onChange={handleChange}
         checked={checked}
