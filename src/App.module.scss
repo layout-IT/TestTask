@@ -2,12 +2,19 @@
   position: relative;
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 1500px;
+  margin: 0 auto;
+  @media (max-width: 1200px) {
+    width: 1000px
+  }
+  @media (max-width: 1000px) {
+    width: 700px
+  }
 }
 
 .container {
   padding-top: 50px;
-  width: 80%;
+  width: 100%;
   @media (max-width: 600px) {
     width: 100%;
   }
