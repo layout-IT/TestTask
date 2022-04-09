@@ -26,18 +26,23 @@
 }
 
 .line {
-&:nth-child(1){
-  width: 35%;
-}
-  &:nth-child(2){
-    width: 15%;
-  }
-  &:nth-child(3){
-    width: 15%;
-  }
-  &:nth-child(4){
+  overflow: hidden;
+  &:nth-child(1) {
     width: 35%;
   }
+
+  &:nth-child(2) {
+    width: 15%;
+  }
+
+  &:nth-child(3) {
+    width: 15%;
+  }
+
+  &:nth-child(4) {
+    width: 35%;
+  }
+
   @media (max-width: 600px) {
     font-size: 14px !important;
     padding: 10px 5px !important;
