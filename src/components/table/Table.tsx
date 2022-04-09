@@ -86,7 +86,7 @@ export const TableOfEmployees: FC = (): ReturnComponent => {
   };
 
   return (
-    <Table style={{ borderStyle: "solid", borderColor: "#6384DF" }}>
+    <Table style={{ borderStyle: "solid", borderColor: "#6384DF"}} className={style.table}>
       <TableHead>
         <TableRow style={{ backgroundColor: "#6384DF" }}>
           <TableCell
@@ -151,11 +151,11 @@ export const TableOfEmployees: FC = (): ReturnComponent => {
           </TableCell>
         </TableRow>
       </TableHead>
-      <TableBody>
+      <TableBody >
         {changeableArrayOfWorkers.map((employee) => (
           <TableRow
             key={employee.id}
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer"}}
             onClick={() => goToEditing({ ...employee })}
           >
             <TableCell

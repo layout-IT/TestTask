@@ -16,7 +16,7 @@ export const CheckboxLabels: FC = (): ReturnComponent => {
     dispatch(changingTheArchiveSwitchAC(event.target.checked));
   };
   return (
-    <FormGroup>
+    <FormGroup className={style.formGroup}>
       <FormControlLabel
         control={<Checkbox defaultChecked />}
         label="In the archive"
