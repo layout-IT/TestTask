@@ -5,8 +5,12 @@
   width: 100%;
 }
 
-.contaiber {
+.container {
   padding-top: 50px;
+  width: 80%;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 }
 
 .items {

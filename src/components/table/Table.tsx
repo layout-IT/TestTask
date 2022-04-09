@@ -154,12 +154,13 @@ export const TableOfEmployees: FC = (): ReturnComponent => {
       <TableBody >
         {changeableArrayOfWorkers.map((employee) => (
           <TableRow
+              className={style.tableRow}
             key={employee.id}
             style={{ cursor: "pointer"}}
             onClick={() => goToEditing({ ...employee })}
           >
             <TableCell
-              style={{ fontSize: 17 }}
+              style={{ fontSize: 17,}}
               align="left"
               className={style.line}
             >

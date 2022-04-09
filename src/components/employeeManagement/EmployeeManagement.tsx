@@ -23,7 +23,7 @@ export const EmployeeManagement: FC = (): ReturnComponent => {
       {preloader ? (
         <Preloader />
       ) : (
-        <div className={style.contaiber}>
+        <div className={style.container}>
           <div className={style.items}>
             <EmployeeSelection />
             <CheckboxLabels />
